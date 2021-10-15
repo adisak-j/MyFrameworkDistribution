@@ -11,9 +11,6 @@ let package = Package(
             name: "MyFramework", 
             targets: ["MyFramework"])
     ],
-    dependencies: [
-        .package(url: "https://github.com/SwiftyJSON/SwiftyJSON", from: "4.0.0"),
-    ],
     targets: [
         .binaryTarget(
             name: "MyFramework", 
